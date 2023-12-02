@@ -31,6 +31,12 @@ p{
     font-size: 30px;
 }
 
+.photo-me{
+object-position: 50% 50%;
+width: 250px;
+border-radius: 20px;
+}
+
 .btn-branding{
     background: var(--dark-branding-color);
     border-radius: 4px;
@@ -45,6 +51,7 @@ p{
 i{
     font-size: 40px; 
     color:var(--dark-branding-color);
+    margin-left: 25px;
 }
 
 /* font-family: 'Dosis', sans-serif;
