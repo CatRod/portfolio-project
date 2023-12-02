@@ -1,0 +1,18 @@
+h1 {
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-weight: thin;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+i{
+    font-size: 40px; 
+    color: darkolivegreen;
+}
+
+/* font-family: 'Dosis', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
