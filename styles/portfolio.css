@@ -1,16 +1,50 @@
-h1 {
-  color: black;
-  font-family: 'Playfair Display', serif;
-  font-weight: thin;
+:root{
+    --light-branding-color: rgba(203, 222, 215, 0.673);
+    --light-text-color: rgb(95, 94, 94);
+    --dark-branding-color: rgb(81, 114, 14);
+    --heading-font-family:'Playfair Display', serif;
+    --default-font-family: 'Poppins', sans-serif;
+    
 }
 
+.hero{
+    background-color: var(--light-branding-color);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 160px;
+}
+h1 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  font-size: 80px;
+}
+
+h3{
+    color: var(--light-text-color);
+    font-family: var(--default-font-family);
+    font-size: 18px;;
+    margin-top: 15px;
+}
 p{
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--default-font-family);
+    font-size: 30px;
+}
+
+.btn-branding{
+    background: var(--dark-branding-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-family: var(--default-font-family);
+    line-height:27px;
+    padding: 15px 18px;
+    margin-left: 25px;
 }
 
 i{
     font-size: 40px; 
-    color: darkolivegreen;
+    color:var(--dark-branding-color);
 }
 
 /* font-family: 'Dosis', sans-serif;
