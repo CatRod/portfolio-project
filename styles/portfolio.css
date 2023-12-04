@@ -33,6 +33,31 @@ i {
   margin: 15px;
 }
 
+nav {
+  padding-top: 20px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(98, 98, 98);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--dark-branding-color);
+}
+
+.nav-bar {
+  background-color: var(--light-branding-color);
+}
+
 .hero {
   background-color: var(--light-branding-color);
   text-align: center;
@@ -80,14 +105,6 @@ i {
   line-height: 27px;
   padding: 15px 18px;
   margin-left: 25px;
-}
-
-.container-btn {
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
 }
 
 .about-info {
