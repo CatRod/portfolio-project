@@ -96,15 +96,6 @@ nav li.active a {
   padding: 15px 18px;
   margin-left: 25px;
 }
-.btn-projects {
-  padding-right: 15px;
-  text-align: center;
-}
-
-.btn-contacts {
-  padding-left: 20px;
-  text-align: center;
-}
 
 .btn-about-me {
   background: var(--light-branding-color);
