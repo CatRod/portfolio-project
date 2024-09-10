@@ -130,6 +130,10 @@ nav li.active a {
   padding-right: 14px;
 }
 
+.description {
+  font-size: 16px;
+}
+
 .footer {
   text-align: center;
   padding: 20px;
